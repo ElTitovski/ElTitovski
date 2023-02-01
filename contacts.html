@@ -3,12 +3,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Start</title>
+	<title>Contacts</title>
 	<link rel="stylesheet" href="/style.css">
 	<meta charset="UTF-8">
-	<meta name="description" content="Servisoes for helpong peopl. Volonteers, coworkers and others stuaff!">
-	<meta name="keywords" content="chat, a11ty, freehelp">
-
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans&display=swap"
@@ -22,113 +19,68 @@
 			<div class="contener__header">
 				<div class="logo__header">
 					<img src="/img/Group 1.svg" alt="web logo" class="picture__logo__header">
-					<p class="start__logo__header">Start</p>
+					<p class="start__logo__header"">Start</p>
 				</div>
 				<nav class="menu__header">
-					<a href="/main.html">Home</a>
-					<a href="/portfolio.html">Portfolio</a>
-					<a href="/services.html">Services</a>
-					<a href="/contacts.html">Contacts</a>
+					<a tabindex="1" href="/main.html">Home</a>
+					<a tabindex="2" href="/portfolio.html">Portfolio</a>
+					<a tabindex="3" href="/services.html">Services</a>
+					<a tabindex="4" href="/contacts.html">Contacts</a>
 				</nav>
 
 			</div>
-
-			
 		</header>
 
 		<main>
-			<div class="contener__about__header">
-				<div class="about__header">
-					<h2>Welcome</h2>
-					<h1>Our community to help people</h1>
-					<p class="discribe">We can do anything better together!
-						Our company try so hard to do good things. Just cheak out our portfolio and conferm about it.
-					<p>
-						<a class="button__about__header">
-							Explore
-						</a>
+			<section class="contacts">
+				<div class="text__contacts">
+					<h2 class="subtitle__text__contacts">Contact Us</h2>
+					<p class="p__text__contacts">And we will contact you back soon</p>
 				</div>
-				<div class="img_group"><img src="/img/Group.svg" alt="our group logo. two women and men works together">
+			</section>
+			<section class="form__contacts">
+				<form class="contacts_form__contacts" action="" method="post" enctype="multipart/form-data">
+					<div class="name__form">
+						<p class="title_name__form">Name</p>
+						<input class="input_name__form" tabindex="5" type="text" name="name" value="" required="required">
+					</div>
+
+					<div class="mail__form">
+						<p class="title_mail__form">Email</p>
+						<input class="input_mail__form" tabindex="6" type="text" name="mail" value="" required="required">
+					</div>
+					<div class="message__form">
+						<p class="title_message__form">Message</p>
+						<textarea class="text_area" tabindex="7" name="message" id="" cols="30" rows="10"
+							required="required"></textarea>
+					</div>
+					<button tabindex="8" type="submit" class="form__button">Submit</button>
+				</form>
+
+				<section class="map">
+					<a href="https://goo.gl/maps/YheYPBUtvjVzMKfV8"><img src="/img/map.svg" alt=""></a>
+				</section>
+
+			</section>
+
+		</main>
+		<footer>
+			<div class="contener__footer">
+				<div class="contener__footer-socnets">
+					<div class="socnets">
+						<img src="/img/facebook_icon.svg" alt="facebook">
+						<img src="/img/inst_icon.svg" alt="instagram">
+						<img src="/img/twi_icon.svg" alt="twitter">
+						<img src="/img/pint_icon.svg" alt="pintrest">
+						<img src="/img/tiktok_icon.svg" alt="tiktok">
+						<img src="/img/ws_icon.svg" alt="whatsapp">
+						<img src="/img/yt_icon.svg" alt="youtube">
+					</div>
+					<div class="footer_p"><p>© Start, 2022. All rights reserved.</p></div>
 				</div>
+
 			</div>
-			<section class="partners">
-				<div class="text__patners">
-					<h3 class="title__text__patners">Partners</h3>
-					<h2 class="subtitle__text__partners">Our partners</h2>
-					<p class="p__text__partners">We have a lot of patners</p>
-				</div>
-				<div class="sponsors">
-					<img src="/img/google.svg" alt="">
-					<img src="/img/microsoft.svg" alt="">
-					<img src="/img/airbnb.svg" alt="">
-					<img src="/img/facebook.svg" alt="">
-					<img src="/img/spotify.svg" alt="">
-				</div>
-				<div class="button_partners__conteiner"><a class="button_partners">Learn more</a></div>
-			</section>
-			<section class="chat">
-				<div class="img__chat">
-					<img src="/img/Group2.svg" alt="" class="img__chat_img">
-				</div>
-				<div class="chat__text__contener">
-					<div class="chat__text">
-						<h2 class="chat__text__title">Our chat</h2>
-						<p class="chat__text__description">We have chat specialy for our volonteers and specialists who can
-							help
-							with something</p>
-						<a class="chat__button">Join the chat</a>
-					</div>
-				</div>
-			</section>
-			<section class="servises">
-				<div class="img__servises">
-					<img src="/img/Group3.svg" alt="">
-				</div>
-				<div class="servises__text__contener">
-					<div class="servises__text">
-						<h2 class="servises__text__title">Our chat</h2>
-						<p class="servises__text__description">We have chat specialy for our volonteers and specialists who
-							can
-							help
-							with something</p>
-						<a class="servises__button">About app</a>
-					</div>
-				</div>
-			</section>
-			<section class="team">
-				<div class="text__team">
-					<h3 class="title__text__team">Team</h3>
-					<h2 class="subtitle__text__team">Our talents</h2>
-					<p class="p__text__team">We have a great team! Just look at them!</p>
-				</div>
-				<div class="team">
-					<img src="/img/Peg.svg" alt="">
-					<img src="/img/Richard.svg" alt="">
-					<img src="/img/Alexandra.svg" alt="">
-					<img src="/img/Janet.svg" alt="">
-				</div>
-				<div class="button_team__conteiner"><a class="button_team">View team</a></div>
-			</section>
-		</main>	
-				<footer>
-				<div class="socnets">
-					<img src="/img/facebook_icon.svg" alt="">
-					<img src="/img/inst_icon.svg" alt="">
-					<img src="/img/twi_icon.svg" alt="">
-					<img src="/img/pint_icon.svg" alt="">
-					<img src="/img/tiktok_icon.svg" alt="">
-					<img src="/img/ws_icon.svg" alt="">
-					<img src="/img/yt_icon.svg" alt="">
-				</div>
-				<div class="footer_p"><p>© Start, 2022. All rights reserved.</p></div>
 
-			</footer>
-
-
-
+	</footer>
 	</div>
-
-
 </body>
-
-</html>
