@@ -211,7 +211,8 @@ img {
 
 .text__patners,
 .text__contacts,
-.text__portfolio {
+.text__portfolio,
+.text__services {
 	text-align: center;
 	
 }
@@ -221,7 +222,8 @@ img {
 
 .title__text__patners,
 .title__text__team,
-.title__text__portfolio {
+.title__text__portfolio,
+.title__text__services {
 	font-family: 'Work Sans';
 	font-weight: 700;
 	font-size: 1em;
@@ -236,7 +238,8 @@ img {
 .servises__text__title,
 .subtitle__text__team,
 .subtitle__text__portfolio,
-.subtitle__text__contacts {
+.subtitle__text__contacts,
+.subtitle__text__services {
 	font-family: 'Crimson Text';
 	font-style: normal;
 	color: #000000;
@@ -250,7 +253,8 @@ img {
 .servises__text__description,
 .p__text__team,
 .p__text__portfolio,
-.p__text__contacts {
+.p__text__contacts,
+.p__text__services {
 	font-family: 'Work Sans';
 	font-style: normal;
 	font-size: 20px;
@@ -406,9 +410,28 @@ img {
 	max-width: 1187px;
 	max-height: 1567px;
 	margin: 0em auto 0em auto;
-	
+}
+.contener__plans{
+	margin: 0em auto 0em auto;
 
 }
+
+.contener-contener__plans{
+	display: flexbox;
+	margin: 0em auto 0em auto;
+	
+}
+
+.plans{
+	display: flex;
+	justify-content: space-between ;
+	align-items: center;
+	margin: 0em auto 0em auto;
+
+}
+
+
+
 
 .footer,
 footer{
@@ -424,12 +447,9 @@ footer{
 	align-items: center;
 	width: 1178px;
 	height: 25px;
-	
-
-
 }
-.socnets {
 
+.socnets {
 	display: flex;
    justify-content: space-between;
    width: 242.52px;
