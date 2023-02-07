@@ -9,6 +9,13 @@ body {
 a {
 	text-decoration: none;
 }
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
 
 
 header,
@@ -100,7 +107,7 @@ img {
 
 .start__logo__header {
 	align-self: center;
-	font-family: Work Sans;
+	font-family: 'Work Sans';
 	font-size: 40px;
 	line-height: 50px;
 
@@ -414,22 +421,50 @@ img {
 .contener__plans{
 	margin: 0em auto 0em auto;
 
+
 }
 
 .contener-contener__plans{
 	display: flexbox;
 	margin: 0em auto 0em auto;
+	max-width: 1227px;
+	max-height: 542px;
 	
 }
 
 .plans{
 	display: flex;
-	justify-content: space-between ;
+	justify-content: space-around;
 	align-items: center;
 	margin: 0em auto 0em auto;
-
+}
+.title__plans1-basic,
+.title__plans2-basic,
+.title__plans3-basic{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
 }
 
+.price__plans1-basic,
+.price__plans2-basic,
+.price__plans3-basic{
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 125%;
+}
+.price2__month{
+	color: rgba(33, 37, 41, 0.5);
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	margin: auto 0.3em auto 0.3em;
+}
 
 
 
