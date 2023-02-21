@@ -37,7 +37,7 @@ footer,
 
 }
 .main{
-	padding: 5.15em 0em 2em 0em;
+	padding: 5.15em 0em 0em 0em;
 }
 .content {
 	margin: 0px auto 0px auto;
@@ -215,6 +215,46 @@ img {
 	flex-direction: column;
 	z-index: 1;
 }
+.team__conteiner{
+	margin: 102.27px auto 0px auto;
+}
+.team__img{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.team__img img{
+	max-width: 100%;
+}
+.team__img h3{
+	font-family: 'Crimson Text';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 125%;
+
+}
+.team__img p{
+	color: #212529BF;
+	font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+text-transform: uppercase;
+
+}
+.titovski, .katz, .sobol, .shulman{
+min-width: 279px;
+min-height: 299px;
+background: #FFFFFF;
+box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+.conteiner{
+	margin: 20px 39px;
+}
 
 .text__patners,
 .text__contacts,
@@ -257,8 +297,7 @@ img {
 }
 
 .p__text__partners,
-.chat__text__description,
-.servises__text__description,
+
 .p__text__team,
 .p__text__portfolio,
 .p__text__contacts,
@@ -267,6 +306,15 @@ img {
 	font-style: normal;
 	font-size: 20px;
 	line-height: 125%;
+	
+}
+.chat__text__description,
+.servises__text__description{
+	color:#21252980;
+	font-size: 15px;
+	font-family: 'Work Sans';
+	line-height: 125%;
+
 }
 
 
@@ -490,16 +538,32 @@ text-align: center;
 	margin: auto 0.3em auto 0.3em;
 }
 
+.footer{
+	display: flex;
+	min-width: 1440px;
+	min-height: 125px;
+}
+.contener__footer-socnets{
+	display: flexbox;
+	color:#FFFFFF;
+	margin: 54.5px auto 54.5px auto;
+	justify-content: space-between;
+	
+}
+.socnets{
+	justify-content: space-between;
+	
 
+}
 
-.footer,
-footer{
-	max-height: 8em;
+/* .footer{
+	width: 1440px;
+	height: 125px;
 }
 
 .contener__footer-socnets{
 	display: flex;
-	margin: 2em auto 0em auto;
+	
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
@@ -509,11 +573,11 @@ footer{
 }
 
 .socnets {
+
 	display: flex;
    justify-content: space-between;
    width: 242.52px;
    height: 25px;
-   padding: 2em auto 2em auto;
 }
 
 .footer_p{
@@ -524,4 +588,4 @@ footer{
 	height: 25px;
 
 }
-
+ */
