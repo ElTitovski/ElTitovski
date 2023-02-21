@@ -13,8 +13,8 @@ li {
     list-style-type: none; /* Убираем маркеры */
    }
    ul {
-    margin-left: 0; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin-left: 0;
+    padding-left: 0; 
    }
 
 
@@ -208,7 +208,7 @@ img {
 }
 
 
-.partners {
+.partners, .team__conteiner {
 	margin: 0em auto 0em auto;
 	background: #FFFFFF;
 	display: flex;
@@ -219,7 +219,8 @@ img {
 .text__patners,
 .text__contacts,
 .text__portfolio,
-.text__services {
+.text__services,
+.text__team {
 	text-align: center;
 	
 }
@@ -269,10 +270,11 @@ img {
 }
 
 
-.sponsors {
+.sponsors, .team__img {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin: 55px 0px 0px 0px;
 
 
 }
@@ -307,6 +309,17 @@ img {
 
 
 }
+.button_team__conteiner{
+	margin: 25px auto 0px auto;
+
+}
+
+.button_partners{
+	margin: 55px auto 0px auto;
+}
+.chat__button, .servises__button {
+	margin-left: 0px;
+}
 .button_gallery__works{
 	align-items: center;
 	justify-content: center;
@@ -326,6 +339,7 @@ img {
 	max-width: 1180;
 	max-height: 432px;
 
+
 }
 
 .servises {
@@ -333,8 +347,18 @@ img {
 }
 
 
-.chat__text {
+.chat__text, 
+.servises__text{
+	display: flex;
 	justify-content: space-between;
+	gap: 16px;
+	flex-direction: column;
+}
+.chat__text{
+	margin: 88px 0px 88px 110px;
+}
+.servises__text{
+	margin: 88px 110px 88px 0px ;
 }
 
 
